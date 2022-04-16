@@ -1,0 +1,16 @@
+.subheadline {
+  color: #212121;
+  /* border: 1px solid black; */
+  font-weight: 500;
+  font-family: "Inter-Medium", "Inter", sans-serif;
+  font-size: 2rem;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

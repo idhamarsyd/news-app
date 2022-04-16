@@ -1,0 +1,10 @@
+.headline {
+  color: #212121;
+  /* border: 1px solid black; */
+  font-weight: 500;
+  font-family: "Inter-Medium", "Inter", sans-serif;
+  font-size: 3rem;
+  letter-spacing: -2px;
+  line-height: 1.2;
+  margin: 0;
+}

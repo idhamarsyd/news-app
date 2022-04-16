@@ -1,0 +1,32 @@
+.link {
+  font-family: "Inter-ExtraBold", "Inter", sans-serif;
+  color: #212121;
+  opacity: 0.6;
+  /* border: 1px solid black; */
+  font-size: 1rem;
+  letter-spacing: -0.2;
+  line-height: 1.2;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8;
+  transition: 0.1s ease-in-out;
+}
+
+.link:hover {
+  font-weight: 800;
+  /* border: 1px solid black; */
+}
+
+.active {
+  font-family: "Inter-ExtraBold", "Inter", sans-serif;
+  /* border: 1px solid black; */
+  font-size: 1rem;
+  letter-spacing: -0.2;
+  line-height: 1.2;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 8;
+  transition: 0.1s ease-in-out;
+  color: #6666ff;
+  opacity: 1;
+}
