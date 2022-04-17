@@ -12,8 +12,8 @@ const NormalCard = (props) => {
         <p className={styles.body}>{props.description}</p>
       </div>
       <div className={styles.action}>
-        <Button label="View" url={props.url} />
-        <Button label="Save" />
+        <Button style={{ text: "View" }} url={props.url} />
+        <Button style={props.saveButtonStyle} OnPress={props.OnPress} />
       </div>
     </div>
   );

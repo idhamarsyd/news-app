@@ -13,15 +13,9 @@ const NavBar = (props) => {
   };
   return (
     <div style={styles.container}>
-      <Link
-        color="primary"
-        // label="Indonesia"
-        weight="bold"
-        label="Indonesia"
-        url="/"
-      />
-      <Link label="Programming" opacity={0.6} url="/programming" />
-      <Link label="COVID - 19" opacity={0.6} url="/covid" />
+      <Link label="Indonesia" url="/" />
+      <Link label="Programming" url="/programming" />
+      <Link label="COVID - 19" url="/covid" />
     </div>
   );
 };

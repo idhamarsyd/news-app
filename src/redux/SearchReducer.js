@@ -8,7 +8,7 @@ export const searchSlice = createSlice({
   },
   reducers: {
     updateQuery: (state, action) => {
-      state.query = action.payload;
+      state.query = encodeURIComponent(action.payload);
     },
   },
 });
