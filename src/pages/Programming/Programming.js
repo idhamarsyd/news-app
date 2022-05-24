@@ -10,13 +10,13 @@ const Programming = (props) => {
   const { data, isLoading } = useSelector((state) => state.news);
   const { bookmarks } = useSelector((state) => state.bookmarks);
 
-  useEffect(() => {
-    dispatch(
-      fetchNews(
-        "https://newsapi.org/v2/everything?q=programming&from=2022-03-17&apiKey=58233f2dc8904715b39c728b86ba842e"
-      )
-    );
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(
+  //     fetchNews(
+  //       "https://newsapi.org/v2/everything?q=programming&from=2022-05-17&apiKey=58233f2dc8904715b39c728b86ba842e"
+  //     )
+  //   );
+  // }, [dispatch]);
 
   const checkItem = (query) => {
     const found = bookmarks.some((el) => el.title === query.title);
