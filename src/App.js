@@ -41,7 +41,7 @@ function App() {
       }
       dispatch(
         fetchNews(
-          `https://newsapi.org/v2/everything?qInTitle=${query}&from=2022-03-17&apiKey=58233f2dc8904715b39c728b86ba842e`
+          `https://newsapi.org/v2/everything?qInTitle=${query}&from=2022-05-17&apiKey=58233f2dc8904715b39c728b86ba842e`
         )
       );
     }
